@@ -71,6 +71,8 @@
 #define LED_GPIO                    GPIOE
 #define SD_LED_GPIO                 GPIOA
 #define SERIAL_DRIVER				SD1
+#define LED_PIN		                6
+#define SD_LED_PIN	                4
 
 // #define LED							GPIOE_LED
 
