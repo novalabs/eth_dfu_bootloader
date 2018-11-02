@@ -1,0 +1,13 @@
+{
+  "name": "eth_dfu_bootloader",
+  "description": "ETH DFU bootloader",
+  "chip": "STM32F417VG",
+  "required_packages": [],
+  "chibios_components": [
+    "hal",
+    "pal",
+    "serial_usb",
+    "hal_buffers",
+    "usb"
+  ]
+}
