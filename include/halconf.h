@@ -110,7 +110,7 @@
  * @brief   Enables the MAC subsystem.
  */
 #if !defined(HAL_USE_MAC) || defined(__DOXYGEN__)
-#define HAL_USE_MAC                 TRUE
+#define HAL_USE_MAC                 FALSE
 #endif
 
 /**
@@ -138,21 +138,21 @@
  * @brief   Enables the RTC subsystem.
  */
 #if !defined(HAL_USE_RTC) || defined(__DOXYGEN__)
-#define HAL_USE_RTC                 TRUE
+#define HAL_USE_RTC                 FALSE
 #endif
 
 /**
  * @brief   Enables the SDC subsystem.
  */
 #if !defined(HAL_USE_SDC) || defined(__DOXYGEN__)
-#define HAL_USE_SDC                 TRUE
+#define HAL_USE_SDC                 FALSE
 #endif
 
 /**
  * @brief   Enables the SERIAL subsystem.
  */
 #if !defined(HAL_USE_SERIAL) || defined(__DOXYGEN__)
-#define HAL_USE_SERIAL              TRUE
+#define HAL_USE_SERIAL              FALSE
 #endif
 
 /**
